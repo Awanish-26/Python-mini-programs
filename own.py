@@ -1,0 +1,36 @@
+import turtle
+t=turtle.Turtle()
+turtle.title("Hello Turtle")
+screen=turtle.Screen()
+screen.setup(width=.8 ,height=1.0)
+screen.bgcolor(0.5,0.2,1)
+t.speed(0)
+t.width(1)
+t.color(0,0,0)
+
+# t.forward(40)
+# t.circle(70,180)
+# t.setheading(0)
+# t.circle(70,180)
+# t.forward(40)
+# t.home()
+# t.penup()
+# t.setx(210)
+# t.pendown()
+# t.left(80)
+# t.forward(280)
+# t.right(150)
+# t.forward(290)
+# t.right(180)
+# t.forward(140)
+# t.left(70)
+# t.forward(70)
+
+t.penup()
+t.setpos(0,0)
+t.pendown()
+c=26
+for j in range(320):
+    t.forward(c)        
+    t.left(117)
+    c=c+1
